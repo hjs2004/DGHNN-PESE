@@ -1,0 +1,314 @@
+[
+  {
+    "dataset": "CPDB",
+    "archive": "EMOGI_model_CPDB.tar.gz",
+    "source": "https://owww.molgen.mpg.de/~sasse/EMOGI/EMOGI_model_CPDB.tar.gz",
+    "archive_bytes": 21775589,
+    "archive_sha256": "6c7babf66abc8429e75e6b842a6e14a38f8e1c8671f6e89a5b1ccffd8e5a299f",
+    "file": "CPDB_multiomics.h5",
+    "bytes": 1500826506,
+    "shapes": {
+      "feature_names": [
+        64
+      ],
+      "features": [
+        13627,
+        64
+      ],
+      "features_raw": [
+        13627,
+        64
+      ],
+      "gene_names": [
+        13627,
+        2
+      ],
+      "mask_test": [
+        13627
+      ],
+      "mask_train": [
+        13627
+      ],
+      "mask_val": [
+        13627
+      ],
+      "network": [
+        13627,
+        13627
+      ],
+      "y_test": [
+        13627,
+        1
+      ],
+      "y_train": [
+        13627,
+        1
+      ],
+      "y_val": [
+        13627,
+        1
+      ]
+    }
+  },
+  {
+    "dataset": "IRefIndex",
+    "archive": "EMOGI_model_IRefIndex.tar.gz",
+    "source": "https://owww.molgen.mpg.de/~sasse/EMOGI/EMOGI_model_IRefIndex.tar.gz",
+    "archive_bytes": 23087737,
+    "archive_sha256": "3844eebb32fb763afa16561697d91cefe68d62c44b33ba19437438b3271a8d9b",
+    "file": "IREF_multiomics.h5",
+    "bytes": 2334595366,
+    "shapes": {
+      "feature_names": [
+        64
+      ],
+      "features": [
+        17013,
+        64
+      ],
+      "features_raw": [
+        17013,
+        64
+      ],
+      "gene_names": [
+        17013,
+        2
+      ],
+      "mask_test": [
+        17013
+      ],
+      "mask_train": [
+        17013
+      ],
+      "mask_val": [
+        17013
+      ],
+      "network": [
+        17013,
+        17013
+      ],
+      "y_test": [
+        17013,
+        1
+      ],
+      "y_train": [
+        17013,
+        1
+      ],
+      "y_val": [
+        17013,
+        1
+      ]
+    }
+  },
+  {
+    "dataset": "IRefIndex_2015",
+    "archive": "EMOGI_model_IRefIndex_2015.tar.gz",
+    "source": "https://owww.molgen.mpg.de/~sasse/EMOGI/EMOGI_model_IRefIndex_2015.tar.gz",
+    "archive_bytes": 16586342,
+    "archive_sha256": "0a445dd21b23d2af8f00834323f277de7670b1dc5cd93d8f80748a46c9487f85",
+    "file": "IREF_2015_multiomics.h5",
+    "bytes": 1190461038,
+    "shapes": {
+      "feature_names": [
+        64
+      ],
+      "features": [
+        12129,
+        64
+      ],
+      "features_raw": [
+        12129,
+        64
+      ],
+      "gene_names": [
+        12129,
+        2
+      ],
+      "mask_test": [
+        12129
+      ],
+      "mask_train": [
+        12129
+      ],
+      "mask_val": [
+        12129
+      ],
+      "network": [
+        12129,
+        12129
+      ],
+      "y_test": [
+        12129,
+        1
+      ],
+      "y_train": [
+        12129,
+        1
+      ],
+      "y_val": [
+        12129,
+        1
+      ]
+    }
+  },
+  {
+    "dataset": "Multinet",
+    "archive": "EMOGI_model_Multinet.tar.gz",
+    "source": "https://owww.molgen.mpg.de/~sasse/EMOGI/EMOGI_model_Multinet.tar.gz",
+    "archive_bytes": 18305876,
+    "archive_sha256": "cd2e59c14eec72f157f2762de308d25ca2c768c9465a13943ad12267beb54524",
+    "file": "MULTINET_multiomics.h5",
+    "bytes": 1674503508,
+    "shapes": {
+      "feature_names": [
+        64
+      ],
+      "features": [
+        14398,
+        64
+      ],
+      "features_raw": [
+        14398,
+        64
+      ],
+      "gene_names": [
+        14398,
+        2
+      ],
+      "mask_test": [
+        14398
+      ],
+      "mask_train": [
+        14398
+      ],
+      "mask_val": [
+        14398
+      ],
+      "network": [
+        14398,
+        14398
+      ],
+      "y_test": [
+        14398,
+        1
+      ],
+      "y_train": [
+        14398,
+        1
+      ],
+      "y_val": [
+        14398,
+        1
+      ]
+    }
+  },
+  {
+    "dataset": "PCNet",
+    "archive": "EMOGI_model_PCNet.tar.gz",
+    "source": "https://owww.molgen.mpg.de/~sasse/EMOGI/EMOGI_model_PCNet.tar.gz",
+    "archive_bytes": 34035252,
+    "archive_sha256": "c3245f5f3850ab2a01a1002e5b9e684aba68cf4e861dc6de7c373c07c0db9550",
+    "file": "PCNET_multiomics.h5",
+    "bytes": 3152432390,
+    "shapes": {
+      "feature_names": [
+        64
+      ],
+      "features": [
+        19781,
+        64
+      ],
+      "features_raw": [
+        19781,
+        64
+      ],
+      "gene_names": [
+        19781,
+        2
+      ],
+      "mask_test": [
+        19781
+      ],
+      "mask_train": [
+        19781
+      ],
+      "mask_val": [
+        19781
+      ],
+      "network": [
+        19781,
+        19781
+      ],
+      "y_test": [
+        19781,
+        1
+      ],
+      "y_train": [
+        19781,
+        1
+      ],
+      "y_val": [
+        19781,
+        1
+      ]
+    }
+  },
+  {
+    "dataset": "STRINGdb",
+    "archive": "EMOGI_model_STRINGdb.tar.gz",
+    "source": "https://owww.molgen.mpg.de/~sasse/EMOGI/EMOGI_model_STRINGdb.tar.gz",
+    "archive_bytes": 19437553,
+    "archive_sha256": "a44352fec503bee617cf7e1bb684c8cd1f4d5b48eac0937e97fa64708b79fcb8",
+    "file": "STRINGdb_multiomics.h5",
+    "bytes": 1404245258,
+    "shapes": {
+      "feature_names": [
+        64
+      ],
+      "features": [
+        13179,
+        64
+      ],
+      "features_raw": [
+        13179,
+        64
+      ],
+      "gene_names": [
+        13179,
+        2
+      ],
+      "mask_test": [
+        13179
+      ],
+      "mask_train": [
+        13179
+      ],
+      "mask_val": [
+        13179
+      ],
+      "network": [
+        13179,
+        13179
+      ],
+      "y_test": [
+        13179,
+        1
+      ],
+      "y_train": [
+        13179,
+        1
+      ],
+      "y_val": [
+        13179,
+        1
+      ]
+    }
+  },
+  {
+    "file": "Homo_sapiens.gene_info",
+    "source": "https://ftp.ncbi.nlm.nih.gov/refseq/H_sapiens/Homo_sapiens.gene_info.gz",
+    "records": 193893,
+    "archive_sha256": "eac38d79f5b3c01b7c7bf6b211abb56ba1284cf8db6b9ccfa145e76e2380a540"
+  }
+]

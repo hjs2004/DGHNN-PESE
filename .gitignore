@@ -1,0 +1,53 @@
+# Environments, editor state and Python caches
+.venv/
+venv/
+.idea/
+.vscode/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.cache/
+
+# Original datasets, weights, generated results and local backups
+data/*
+!data/README.md
+!data/download_manifest.json
+outputs/
+runs/
+tmp/
+server_backups/
+deployments/
+processed_data/
+validation-performance-*/
+smoke-multigpu-*/
+backup-*/
+*.h5
+*.hdf5
+*.pth
+*.pt
+*.ckpt
+*.npz
+*.npy
+*.log
+*.pid
+*.tar
+*.tar.gz
+*.zip
+*.pdf
+*.pptx
+last_paper_run.txt
+
+# Credentials and machine-specific files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+credentials*
+secrets*
+
+# Local research notes are not part of the code release
+research/
+docs/superpowers/
