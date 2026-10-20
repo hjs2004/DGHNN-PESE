@@ -68,7 +68,7 @@ class GraphEncodingTests(unittest.TestCase):
         enc = self.encoding_module()
         cfg = enc.EncodingConfig(lap_dim=2, rw_steps=(2,))
         edges = torch.tensor([[0, 1], [1, 0]])
-        with tempfile.TemporaryDirectory(dir=ROOT / 'tmp') as folder:
+        with tempfile.TemporaryDirectory(prefix='dghnn-encoding-test-', dir=ROOT) as folder:
             first = enc.compute_encodings(edges, 3, cfg, cache_dir=folder)
             second = enc.compute_encodings(edges, 3, cfg, cache_dir=folder)
             third = enc.compute_encodings(torch.tensor([[0, 1, 1, 2], [1, 0, 2, 1]]),
